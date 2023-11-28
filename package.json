@@ -1,7 +1,7 @@
 {
 	"name": "@prokopschield/localstorage-state",
 	"description": "localstorage-backed state management",
-	"version": "0.1.0-1",
+	"version": "0.1.0-2",
 	"main": "lib/index.js",
 	"author": "Prokop Schield",
 	"dependencies": {
