@@ -3,6 +3,19 @@ import { cacheFn } from "ps-std";
 
 export const noop = () => {};
 
+export const localStorage =
+	"localStorage" in globalThis
+		? globalThis.localStorage
+		: {
+				values: new Map<string, any>(),
+				getItem(key: string) {
+					return this.values.get(key);
+				},
+				setItem(key: string, value: any) {
+					return this.values.set(key, value);
+				},
+		  };
+
 export interface Store<T> {
 	value: T;
 	set(value: T): void;
