@@ -9,15 +9,15 @@
   dependencies:
     undici-types "~5.26.4"
 
-doge-don@^0.1.0-3:
-  version "0.1.0-3"
-  resolved "https://registry.yarnpkg.com/doge-don/-/doge-don-0.1.0-3.tgz#8bfc9ae755dc8275e69eef4a0447108c85f02d0f"
-  integrity sha512-j2P7H393BHUg8q3xA75CvW9focZ39CYm36kT81bUzr+V4WtxD+KXZiDjpCIpVwO0gn67Y9Py0hpXalZDYTXojw==
+doge-don@^0.1.0-4:
+  version "0.1.0-4"
+  resolved "https://registry.yarnpkg.com/doge-don/-/doge-don-0.1.0-4.tgz#0c2a42ed4f98b7e39d829b6cd00043384b660d3e"
+  integrity sha512-wHpsqUwl9MmWS+30IODnwmHEqGIAPcInWenXbSIW1Keee8UN+Z+jfCrdstfHcltPzw/ACIFAwWalCYhl8K1mnw==
 
-ps-std@^0.1.24:
-  version "0.1.24"
-  resolved "https://registry.yarnpkg.com/ps-std/-/ps-std-0.1.24.tgz#22e083d91bed88071f7193a82be037d267ad1d75"
-  integrity sha512-wvIci6gp83q3tcEqDJd8P7pShAI9wmlNVcaRzmr7VRLCZ2x2vGkso+qaInA1T6aXDliROX3PQeHlrDFzZ6rNvw==
+ps-std@^0.1.26:
+  version "0.1.26"
+  resolved "https://registry.yarnpkg.com/ps-std/-/ps-std-0.1.26.tgz#e2899e4e39b5fd81ebee55bf8ed6d516b1181a99"
+  integrity sha512-ZThyYQwuI4X92U2Iv9BduuUVxFYR5Rg2eQCIvnBcdlwhjC5ppIaXADWU1BbQ4fj+wsNrDm+bUo+H6d6PNKEePQ==
 
 undici-types@~5.26.4:
   version "5.26.5"
