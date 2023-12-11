@@ -41,6 +41,10 @@ export const store = cacheFn(<T>(key: string): Store<T> => {
 	const subscribe = (callback: (_value: T) => void) => {
 		subscribers.add(callback);
 
+		if (value !== undefined) {
+			callback(value);
+		}
+
 		return () => subscribers.delete(callback);
 	};
 
