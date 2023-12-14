@@ -1,5 +1,5 @@
 import { encode, decode } from "doge-don";
-import { cacheFn } from "ps-std";
+import { cacheFn, Lock } from "ps-std";
 
 export const noop = () => {};
 
@@ -18,7 +18,7 @@ export const localStorage =
 
 export interface Store<T> {
 	value: T;
-	set(value: T): void;
+	set(value: T): Promise<void>;
 	update(_callback: (_value: T) => T): void;
 	subscribe(_callback: (_value: T) => void): () => void;
 }
@@ -28,7 +28,13 @@ export const store = cacheFn(<T>(key: string): Store<T> => {
 
 	const subscribers = new Set<(_value: T) => void>();
 
-	const set = (new_value: T) => {
+	const lock = new Lock();
+
+	const set = async (new_value: T, set_lock = lock.try_lock_sync()) => {
+		if (!set_lock) {
+			set_lock = await lock.wait_and_lock();
+		}
+
 		if (value !== new_value) {
 			localStorage.setItem(key, encode((value = new_value)));
 
@@ -36,6 +42,8 @@ export const store = cacheFn(<T>(key: string): Store<T> => {
 				Promise.resolve(subscriber(new_value)).catch(noop);
 			}
 		}
+
+		set_lock.release();
 	};
 
 	const subscribe = (callback: (_value: T) => void) => {

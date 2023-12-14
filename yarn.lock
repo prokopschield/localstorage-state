@@ -14,10 +14,10 @@ doge-don@^0.1.0-4:
   resolved "https://registry.yarnpkg.com/doge-don/-/doge-don-0.1.0-4.tgz#0c2a42ed4f98b7e39d829b6cd00043384b660d3e"
   integrity sha512-wHpsqUwl9MmWS+30IODnwmHEqGIAPcInWenXbSIW1Keee8UN+Z+jfCrdstfHcltPzw/ACIFAwWalCYhl8K1mnw==
 
-ps-std@^0.1.26:
-  version "0.1.26"
-  resolved "https://registry.yarnpkg.com/ps-std/-/ps-std-0.1.26.tgz#e2899e4e39b5fd81ebee55bf8ed6d516b1181a99"
-  integrity sha512-ZThyYQwuI4X92U2Iv9BduuUVxFYR5Rg2eQCIvnBcdlwhjC5ppIaXADWU1BbQ4fj+wsNrDm+bUo+H6d6PNKEePQ==
+ps-std@^0.1.27:
+  version "0.1.27"
+  resolved "https://registry.yarnpkg.com/ps-std/-/ps-std-0.1.27.tgz#7dc4937be397f306836c0d829f9d8d9cea97ac85"
+  integrity sha512-mwQjv4V2HuKk2YeGsVhpkKfcoDhVpQf49pwv14VNGGXSBZzsDP2FSPKaO9T/MZKZIuLp9KmWPuvYQ7bMqfvOGQ==
 
 undici-types@~5.26.4:
   version "5.26.5"
