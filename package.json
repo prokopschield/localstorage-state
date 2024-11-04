@@ -5,8 +5,8 @@
 	"main": "lib/index.js",
 	"author": "Prokop Schield",
 	"dependencies": {
-		"doge-don": "^0.1.0-4",
-		"ps-std": "^0.1.27"
+		"doge-don": "^0.1.0-13",
+		"ps-std": "^0.1.49"
 	},
 	"devDependencies": {
 		"@types/node": ">=18.18.2"
