@@ -31,7 +31,7 @@ export class Store<T> {
 		return this.value;
 	}
 	toString() {
-		return String(this.value);
+		return String(this.value ?? "");
 	}
 }
 
