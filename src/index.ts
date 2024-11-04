@@ -23,6 +23,15 @@ export interface Store<T> {
 	subscribe(_callback: (_value: T) => void): () => void;
 }
 
+export class Store<T> {
+	constructor(key: string) {
+		return store(key);
+	}
+	toString() {
+		return String(this.value);
+	}
+}
+
 export const store = cacheFn(<T>(key: string): Store<T> => {
 	let value: T = decode(localStorage.getItem(key) || "");
 
@@ -72,7 +81,7 @@ export const store = cacheFn(<T>(key: string): Store<T> => {
 		update,
 	};
 
-	return store;
+	return Object.setPrototypeOf(store, Store.prototype);
 });
 
 export const state = new Proxy({} as Record<string, Store<any>>, {
