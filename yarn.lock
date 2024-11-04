@@ -9,10 +9,45 @@
   dependencies:
     undici-types "~5.26.4"
 
-doge-don@^0.1.0-13:
-  version "0.1.0-13"
-  resolved "https://registry.yarnpkg.com/doge-don/-/doge-don-0.1.0-13.tgz#193fc4ad07fa702e9154fe9b150e6732cff85157"
-  integrity sha512-zpAHbktQJ+X5M/52cR37snkF6wgoXu1ySfD9Xw7sVXbBVeFZ7R/LYe2dAsplKj0TmRj1FkeqjAtcU0+NDaQFUQ==
+base64-js@^1.3.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
+  integrity sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==
+
+buffer@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/buffer/-/buffer-6.0.3.tgz#2ace578459cc8fbe2a70aaa8f52ee63b6a74c6c6"
+  integrity sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==
+  dependencies:
+    base64-js "^1.3.1"
+    ieee754 "^1.2.1"
+
+doge-don@^0.1.0-14:
+  version "0.1.0-14"
+  resolved "https://registry.yarnpkg.com/doge-don/-/doge-don-0.1.0-14.tgz#49e2f85e9d11d7ec26d1bbbca7f4e5a81e2c504d"
+  integrity sha512-zTv7dsMrgOx+Y2AogT2bcrnihBjrjYevMjFYVRBk9+0o5zNEUy2tRnc088PZ6juoN8d0Aq52PMmpe9fJDzFoBQ==
+  dependencies:
+    doge-fs "^0.1.0-2"
+
+doge-fs@^0.1.0-2:
+  version "0.1.0-2"
+  resolved "https://registry.yarnpkg.com/doge-fs/-/doge-fs-0.1.0-2.tgz#78d3fdcab46a7133b8b92e37d10ed14447f06ce4"
+  integrity sha512-3fBXIht65O0DVRaxSuI884j4GBHDWMB8FH3aDg0M+i9dPOWx4ZGIaCP153D31hxFf/soID4lvF/nVwkRcUg9ng==
+  dependencies:
+    fix-buffer-in-browser "^0.1.2"
+    ps-std "^0.1.49"
+
+fix-buffer-in-browser@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/fix-buffer-in-browser/-/fix-buffer-in-browser-0.1.2.tgz#84f41b53a5156211944f2a81ddd75a9713789dbb"
+  integrity sha512-2KJwKN2tUJVUy6x8cUOG/QsXMZvp0MQJayl/saWBCpC8Z9sOw9Umn8SI3Tr7COjhwUcaAQUv0VxFyOBvDwdUEw==
+  dependencies:
+    buffer "^6.0.3"
+
+ieee754@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
+  integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
 ps-std@^0.1.49:
   version "0.1.49"
