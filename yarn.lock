@@ -22,17 +22,17 @@ buffer@^6.0.3:
     base64-js "^1.3.1"
     ieee754 "^1.2.1"
 
-doge-don@^0.1.0-14:
-  version "0.1.0-14"
-  resolved "https://registry.yarnpkg.com/doge-don/-/doge-don-0.1.0-14.tgz#49e2f85e9d11d7ec26d1bbbca7f4e5a81e2c504d"
-  integrity sha512-zTv7dsMrgOx+Y2AogT2bcrnihBjrjYevMjFYVRBk9+0o5zNEUy2tRnc088PZ6juoN8d0Aq52PMmpe9fJDzFoBQ==
+doge-don@^0.1.0-15:
+  version "0.1.0-15"
+  resolved "https://registry.yarnpkg.com/doge-don/-/doge-don-0.1.0-15.tgz#598ce7c66ee72f799fee7479f47d0853f76418f9"
+  integrity sha512-29Iv3/L6HOZ6qb76xtpzZ+dT0zhNi6hC90F5JZlHAKkOlQjOvbSljAqsW7uplffyPuodhWXiLFgolgss9yiZbg==
   dependencies:
-    doge-fs "^0.1.0-2"
+    doge-fs "^0.1.0-3"
 
-doge-fs@^0.1.0-2:
-  version "0.1.0-2"
-  resolved "https://registry.yarnpkg.com/doge-fs/-/doge-fs-0.1.0-2.tgz#78d3fdcab46a7133b8b92e37d10ed14447f06ce4"
-  integrity sha512-3fBXIht65O0DVRaxSuI884j4GBHDWMB8FH3aDg0M+i9dPOWx4ZGIaCP153D31hxFf/soID4lvF/nVwkRcUg9ng==
+doge-fs@^0.1.0-3:
+  version "0.1.0-3"
+  resolved "https://registry.yarnpkg.com/doge-fs/-/doge-fs-0.1.0-3.tgz#5559da1461ac7c3f215026dd2b6fc2216948df5a"
+  integrity sha512-Q1YoOwub8oKiGCk45FXzdxVqUhNGtSUAV3v+Ls/yFhrdX7vUgolrjmKVTi4u+FCFWay69100vGFDFSwXNhpo7w==
   dependencies:
     fix-buffer-in-browser "^0.1.2"
     ps-std "^0.1.49"

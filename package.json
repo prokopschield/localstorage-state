@@ -1,11 +1,11 @@
 {
 	"name": "@prokopschield/localstorage-state",
 	"description": "localstorage-backed state management",
-	"version": "0.1.0-10",
+	"version": "0.1.0-11",
 	"main": "lib/index.js",
 	"author": "Prokop Schield",
 	"dependencies": {
-		"doge-don": "^0.1.0-14",
+		"doge-don": "^0.1.0-15",
 		"ps-std": "^0.1.49"
 	},
 	"devDependencies": {
