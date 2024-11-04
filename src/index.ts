@@ -27,6 +27,9 @@ export class Store<T> {
 	constructor(key: string) {
 		return store(key);
 	}
+	toJSON(): T {
+		return this.value;
+	}
 	toString() {
 		return String(this.value);
 	}
