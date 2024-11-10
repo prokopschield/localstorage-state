@@ -22,10 +22,10 @@ buffer@^6.0.3:
     base64-js "^1.3.1"
     ieee754 "^1.2.1"
 
-doge-don@^0.1.0-15:
-  version "0.1.0-15"
-  resolved "https://registry.yarnpkg.com/doge-don/-/doge-don-0.1.0-15.tgz#598ce7c66ee72f799fee7479f47d0853f76418f9"
-  integrity sha512-29Iv3/L6HOZ6qb76xtpzZ+dT0zhNi6hC90F5JZlHAKkOlQjOvbSljAqsW7uplffyPuodhWXiLFgolgss9yiZbg==
+doge-don@^0.1.0-16:
+  version "0.1.0-16"
+  resolved "https://registry.yarnpkg.com/doge-don/-/doge-don-0.1.0-16.tgz#d0c7177f7529046fdd77749ab6f494ea822c2ccf"
+  integrity sha512-UCDM+FJqIByjwxsR1Jh9KK+cjtjY2FrTbTNwPS6SwqJYe/QBKgdScwcALE0c82lIFGs5JvhFFCfqN4hnyj/PcQ==
   dependencies:
     doge-fs "^0.1.0-3"
 
